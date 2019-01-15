@@ -17,3 +17,7 @@ end
 def divide(a,b)
   return a / b
 end
+
+def length_of_string(test_string)
+  return test_string.length
+end
