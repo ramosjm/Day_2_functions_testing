@@ -56,3 +56,12 @@ end
 def volume_of_cube(length)
   return (length * length * length)
 end
+
+def volume_of_sphere(radius)
+  return((((radius * radius * radius)*4)/3)*3.14).round(2)
+end
+
+def fahrenheit_to_celsius(degrees_f)
+  return ((degrees_f-32) * (5.0/9.0).round(2))
+
+end
