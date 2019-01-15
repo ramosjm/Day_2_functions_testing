@@ -41,3 +41,14 @@ def number_to_full_month_name(number)
     end
     return result
 end
+def number_to_short_month_name(number)
+  result = case number
+      when 1
+        "Jan"
+      when 4
+        "Apr"
+      when 10
+        "Oct"
+    end
+    return result
+end
